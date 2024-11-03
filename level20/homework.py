@@ -18,7 +18,7 @@
 #print(are_different)
 
 #5
-username = input("შეიყვანეთ  სახელი: ")
-password = input("შეიყვანეთ პაროლი:")
-is_valid = (username == "გიო") and (password == "12345")
+username = input("user_password: ")
+password = input("user_password:")
+is_valid = (username == "გიო") and (password == "12345678910")
 print(is_valid)
