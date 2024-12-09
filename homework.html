@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    this is inline
+    <!--განსაზღვრება: Inline ელემენტები თავსდებიან ერთი ხაზის შიგნით, გვერდითა ელემენტებთან ერთად, მათ ახალ ხაზს არ იწყებენ.
+გამოყენება: ძირითადად გამოიყენება ტექსტის შიგნით სპეციფიკური ნაწილების სტილიზებისთვის ან შესაქმნელად (მაგ., <span>, <a>, <strong>).
+მახასიათებლები:
+სიგანე და სიმაღლე არ არის მორგებადი (ignored).
+padding და margin ვერტიკალურად არ მოქმედებს, მხოლოდ ჰორიზონტალურა-->
+
+   this is block level
+   <!--განსაზღვრება: Block-level ელემენტები ავტომატურად იწყებენ ახალ ხაზს და იკავებენ სიგანეს, რომელიც შესაძლებელი იქნება მშობელ კონტეინერში.
+გამოყენება: გამოყენებულია სტრუქტურის შესაქმნელად (მაგ., <div>, <p>, <h1>).
+მახასიათებლები:
+შეიძლება ჰქონდეთ სიმაღლისა და სიგანის განსაზღვრა.
+padding და margin სრულად მოქმედებს, როგორც ვერტიკალურად, ასევე ჰორიზონტალურად.-->
+<head>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Block</title>
+    <style>
+        .styled-div {
+            color: #ffffff; /* ტექსტის ფერი */
+            background-color: #007bff; /* ფონური ფერი */
+            font-size: 16px; /* ტექსტის ზომა */
+            text-align: center; /* ტექსტის ცენტრში განლაგება */
+            font-weight: bold; /* ტექსტის სქელი სტილი */
+            border: 2px solid #000000; /* გარე საზღვარი */
+            padding: 20px; /* შიდა დაშორება */
+            margin: 10px auto; /* გარე დაშორება */
+            width: 80%; /* სიგანე */
+        }
+
+        .styled-div p {
+            margin: 10px 0;
+        }
+
+        .styled-div button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            background-color: #0056b3;
+            color: white;
+        }
+
+        .styled-div button:hover {
+            background-color: #004090;
+        }
+
+        .styled-div h1, .styled-div h2, .styled-div h3 {
+            margin: 15px 0;
+        }
+    </style>
+
+
+    <div class="styled-div">
+        <h1>სათაური 1</h1>
+        <h2>სათაური 2</h2>
+        <h3>სათაური 3</h3>
+        <h3>სათაური 4</h3>
+        <h3>სათაური 5</h3>
+        <p>ეს არის პარაგრაფი 1</p>
+        <p>ეს არის პარაგრაფი 2</p>
+        <p>ეს არის პარაგრაფი 3</p>
+        <p>ეს არის პარაგრაფი 4</p>
+        <p>ეს არის პარაგრაფი 5</p>
+        <button>ღილაკი 1</button>
+        <button>ღილაკი 2</button>
+        <button>ღილაკი 3</button>
+        <button>ღილაკი 4</button>
+        <button>ღილაკი 5</button>
+    </div>
+    1. Table
+<!--განსაზღვრება: Table წარმოადგენს HTML ელემენტს, რომელიც გამოიყენება მონაცემების ცხრილის ფორმატში ორგანიზებისთვის.
+HTML თეგი: <table>
+ფუნქცია: ცხრილის მთლიან სტრუქტურას ქმნის.
+2. Table Row
+განსაზღვრება: Table Row წარმოადგენს ცხრილის სტრიქონს, რომელიც აერთიანებს მონაცემებს ჰორიზონტალურად.
+HTML თეგი: <tr>
+ფუნქცია: თითოეული სტრიქონი მოიცავს რამდენიმე სვეტს.
+3. Table Column
+განსაზღვრება: Table Column წარმოადგენს სვეტს, მაგრამ HTML-ში ეს პირდაპირი თეგით არ განისაზღვრება.
+HTML თეგი: თითოეული სვეტი წარმოდგენილია <td> ან <th> ელემენტებით თითოეულ სტრიქონში.
+ფუნქცია: ქმნის მონაცემების ორგანიზებას ვერტიკალურად.
+4. Table Heading
+განსაზღვრება: Table Heading წარმოადგენს ცხრილის სათაურს, რომელიც სვეტის შინაარსის აღწერას ემსახურება.
+HTML თეგი: <th>
+ფუნქცია: მონაცემების სათაურების ხაზგასმას უზრუნველყოფს.
+5. Table Data
+განსაზღვრება: Table Data არის ცხრილში წარმოდგენილი ინდივიდუალური მონაცემი.
+HTML თეგი: <td>
+ფუნქცია: გამოიყენება მონაცემების განთავსებისთვის კონკრეტულ სვეტში.-->
+
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 რიგი და 3 სვეტი</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+
+    <table>
+        <tr>
+            <th>სვეტი 1</th>
+            <th>სვეტი 2</th>
+            <th>სვეტი 3</th>
+        </tr>
+        
+
+        <tr>
+            <td>მონაცემი 2.1</td>
+            <td>მონაცემი 2.2</td>
+            <td>მონაცემი 2.3</td>
+        </tr>
+        <tr>
+            <td>მონაცემი 3.1</td>
+            <td>მონაცემი 3.2</td>
+            <td>მონაცემი 3.3</td>
+        </tr>
+        <tr>
+            <td>მონაცემი 4.1</td>
+            <td>მონაცემი 4.2</td>
+            <td>მონაცემი 4.3</td>
+        </tr>
+        <tr>
+            <td>მონაცემი 5.1</td>
+            <td>მონაცემი 5.2</td>
+            <td>მონაცემი 5.3</td>
+        </tr>
+    </table>
+    </style>
+    <table>
+        <tr>
+            <th>Person</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Chris</td>
+            <td>38</td>
+        </tr>
+        <tr>
+            <td>Dennis</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Karen</td>
+            <td>47</td>
+        </tr>
+    </table>
+
+    <title>CSS3 Browser Support Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+    <table>
+        <caption>CSS3 Browser Support (latest browser versions)</caption>
+        <tr>
+            <th>CSS Property</th>
+            <th>Internet Explorer</th>
+            <th>FireFox</th>
+            <th>Chrome</th>
+            <th>Safari</th>
+            <th>Opera</th>
+        </tr>
+        <tr>
+            <td>Border Radius</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>YES</td>
+        </tr>
+        <tr>
+            <td>Box Shadow</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>YES</td>
+        </tr>
+        <tr>
+            <td>CSS Animations</td>
+            <td>NO</td>
+            <td>NO</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>NO</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
