@@ -1,0 +1,44 @@
+<!--გამოიყენება ვებგვერდის ვიზუალური სტილიზაციისთვის. ის განსაზღვრავს, როგორ უნდა 
+გამოჩნდეს HTML ელემენტების ვიზუალური წარმოდგენა, მაგალითად ფერები,  ზომები, გვერდის განლაგება და სხვა სტილური თვისებები. CSS საშუალებას აძლევს
+ შემქმნელებს გადმოიტანონ დიზაინის
+ 
+
+ (Rule): ეს არის სტილის მიტანის ფორმა, რომელიც შედგება selectors და declarations-გან. მაგალითად: p { color: red; }.
+
+დეკლარაცია (Declaration): ეს არის წერის ნაწილი, რომელიც განსაზღვრავს კონკრეტულ სტილს (მაგალითად, ფერის, ზომის და აშ) და შედგება თვისებისა და მნიშვნელობისგან. მაგალითად: color: red;.
+
+კუთვნილება (Property): ეს არის CSS-ის სტილის თვისება, რომლის მნიშვნელობასაც ვაწესებთ. მაგალითად, color არის კუთვნილება, რომელიც ფერის განსაზღვრისთვის გამოიყენება.
+
+მნიშვნელობა (Value): ეს არის კუთვნილებისათვის შეყვანილი კონკრეტული მნიშვნელობა. მაგალითად, red არის მნიშვნელობა, რომელიც color კუთვნილებისთვის არის მიცემული.
+
+Selector: ეს არის ელემენტი, რომლისთვისაც განისაზღვრება სტილი. მაგალითად, p არის selector, რომელიც თაგისთვის ანუანდება.
+
+Descendant Selector: ეს არის selector, რომელიც შიდა ელემენტებზე მოქმედებს. მაგალითად, div p { color: blue; } მიუთითებს, რომ ყველა <p> ელემენტს, რომელიც <div>-ში იმყოფება, გამხდარ იქნება ფერი blue.
+
+Inheritance: ეს არის მახასიათებელი, რომლის მიხედვითაც ერთ ელემენტს შეიძლება მემკვიდრეობა გადაეცეს მის შთამომავალ ელემენტებს. მაგალითად, თუ <div>-ში color: blue; გვაქვს, მაშინ ყველა შიდა ელემენტმა შეიძლება მიიღოს იგივე ფერი. (Rule): ეს არის სტილის მიტანის ფორმა, რომელიც შედგება selectors და declarations-გან. მაგალითად: p  color: red;-->
+
+<body style="color: green;">
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem, ipsum dolor.</p>
+</body>
+<br>
+<body>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h2>Lorem, ipsum dolor.</h2>
+    <button style="color: red;"><h1>click me</h1></button>
+    <br>
+    <button style="color: red;"><h1>click me</h1></button>
+    <br>
+    <button style="color: red;"><h1>click me</h1></button>
+    <br>
+    
+    
+    <h1 style="background-color: green;"><p style="color: blue;"><i>hello world</i></p><p style="color: blue;"><i>hello world</i></p><p style="color: darkred;"><i>hello world</i></p></h1>
+    <p>Lorem ipsum dolor <em style="color: aqua;">sit</em> amet.</p> 
+    <p>Lorem ipsum dolor <em style="color: aqua;">sit</em> amet.</p> 
+    <p>Lorem ipsum dolor <em style="color: aqua;">sit</em> amet.</p> 
+    
+
+        
